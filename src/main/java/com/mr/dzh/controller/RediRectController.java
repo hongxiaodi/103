@@ -13,6 +13,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class RediRectController {
 
+
+
+
+
+
+    @GetMapping(value = "/")
+    public String toPay(){
+     return "index";
+    }
     @GetMapping(value = "/")
     public String toIndex(){
 
