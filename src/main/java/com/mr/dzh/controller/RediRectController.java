@@ -18,10 +18,7 @@ public class RediRectController {
 
 
 
-    @GetMapping
-    public String toPay(){
-     return "index";
-    }
+
     @GetMapping(value = "/")
     public String toIndex(){
 
